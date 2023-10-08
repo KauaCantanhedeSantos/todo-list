@@ -60,6 +60,9 @@ button.create{
   border-radius: 8px;
   border: 1px solid #d8d8d8;
   cursor: pointer;
+  font-family: 'Rajdhani';
+  font-weight: 500;
+  font-size: 17px;
 }
 .lista .criado .criado-icon{
   height: 100%;
@@ -73,7 +76,7 @@ button.create{
   height: 100%;
   align-items: center;
   display: flex;
-  flex: 20%;
+  flex: 15%;
   text-align: center;
   justify-content: center;
 }
@@ -81,8 +84,8 @@ button.create{
   height: 100%;
   align-items: center;
   display: flex;
-  flex: 40%;
-  text-align: center;
+  flex: 45%;
+  text-align: justify;
   justify-content: center;
 }
 .lista .criado .criado-data {
