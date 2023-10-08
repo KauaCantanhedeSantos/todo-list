@@ -1,5 +1,5 @@
 //AINDA TEM ALGUMAS FUNCIONALIDADES COMO O DESCLICK DE UMA TAREFA QUE NÃO ESTÁ FUNCIONANDO
-
+//Possiveis atualizações serão feitas ao decorrer do tempo baseado nos avanços dos conhecimentos em JavaScript
 
 //VARIVAIES DE VALORES DOS INPUTS
 let task = document.getElementById('task');
