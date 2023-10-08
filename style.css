@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  width: 700px;
+  margin:25px  auto;
+  font-family: 'Rajdhani';
+  text-align: center;
+}
+section.inputs{
+  align-items: center;
+  width: 1200px;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+input {
+  height: 40px;
+  font-size: 1rem;
+  font-family: 'Rajdhani', 'Helvetica';
+  font-weight: 500;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 0 10px;
+}
+input#task{
+  width: 200px;
+}
+input#desc{
+  width: 500px;
+}
+input#data{
+  width: 200px;
+}
+button.create{
+  font-size: 20px;
+  height: 35px;
+  width: 40px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(107, 255, 107);
+
+}
+/* ITEM DA LISTA QUANDO CRIADO */
+.lista{
+  margin: 10px auto;
+  width: 1700px;
+}
+.lista .criado{
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  width: 90%;
+  margin: 0.8rem auto;
+  border-radius: 8px;
+  border: 1px solid #d8d8d8;
+  cursor: pointer;
+}
+.lista .criado .criado-icon{
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 5%;
+  text-align: center;
+  justify-content: center;
+}
+.lista .criado .criado-nome{
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 20%;
+  text-align: center;
+  justify-content: center;
+}
+.lista .criado .criado-desc {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 40%;
+  text-align: center;
+  justify-content: center;
+}
+.lista .criado .criado-data {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 20%;
+  text-align: center;
+  justify-content: center;
+}
+.lista .criado .criado-del {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 5%;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 146, 146);
+  border-radius: 0 8px 8px 0;
+}
+.lista .criado .criado-icon{
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 5%;
+  text-align: center;
+  justify-content: center;
+}
+.lista .criado .criado-icon .fa-square {
+  font-size: 25px;
+}
+.lista .criado .criado-nome{
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 20%;
+  text-align: center;
+  justify-content: center;
+}
+.lista .criado .criado-desc {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 40%;
+  text-align: center;
+  justify-content: center;
+}
+.lista .criado .criado-data {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 20%;
+  text-align: center;
+  justify-content: center;
+}
+.lista .criado .criado-del {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 5%;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 146, 146);
+  border-radius: 0 8px 8px 0;
+}
+
+
+.lista .feito {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  width: 90%;
+  margin: 0.8rem auto;
+  border-radius: 8px;
+  border: 1px solid #d8d8d8;
+  background-color: #c5ffa371;
+  cursor: pointer;
+}
+.lista .feito .feito-icon {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 5%;
+  text-align: center;
+  justify-content: center;
+  color: rgb(0, 199, 0);
+}
+.lista .feito .feito-icon .fa-square-check{
+  font-size: 25px;
+}
+.lista .feito .feito-nome {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 20%;
+  text-align: center;
+  justify-content: center;
+  text-decoration: line-through;
+  color: gray;
+}
+
+.lista .feito .feito-desc {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 40%;
+  text-align: center;
+  justify-content: center;
+  text-decoration: line-through;
+  color: gray;
+}
+
+.lista .feito .feito-data {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 20%;
+  text-align: center;
+  justify-content: center;
+  text-decoration: line-through;
+  color: gray;
+}
+
+.lista .feito .feito-del{
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 5%;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 146, 146);
+  border-radius: 0 8px 8px 0;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500&family=Open+Sans:wght@300;400&family=Poiret+One&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>TaskList</title>
+</head>
+<body>
+    <header class="header">
+      <div class="title">
+        <h1>Lista de Tarefas: </h1>
+      </div>
+      <footer class="rodape-header">
+        <div class="exemple">
+          <p><strong>Exemplo: </strong><span>Nome  - Descrição - Data</span></p>
+        </div>
+      </footer>
+    </header>
+
+    <section class="inputs">
+      <input type="text" name="task" id="task" placeholder="Nome da Tarefa">
+      <input type="text" name="desc" id="desc" placeholder="Descrição da Tarefa">
+      <input type="date" name="data" id="data">
+      <button type="submit" class="create" id="create" onclick="newTask()">
+        <i class="fa-solid fa-add"></i>
+      </button>
+    </section>
+
+    <section class="lista" id="lista">
+
+
+      <!-- <div class="feito">
+        <div class="feito-icon">
+          <i class="fa-solid fa-square-check"></i>
+        </div>
+        <div class="feito-nome">
+          Nome da tarefa
+        </div>
+        <div class="feito-desc">
+          descrição da tarefa
+        </div>
+        <div class="feito-data">
+          20-20-2020
+        </div>
+        <div class="feito-del">
+          <i class="fa-solid fa-trash"></i>
+        </div>
+      </div> -->
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
