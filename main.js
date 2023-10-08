@@ -1,3 +1,6 @@
+//AINDA TEM ALGUMAS FUNCIONALIDADES COMO O DESCLICK DE UMA TAREFA QUE NÃO ESTÁ FUNCIONANDO
+
+
 //VARIVAIES DE VALORES DOS INPUTS
 let task = document.getElementById('task');
 let desc = document.getElementById('desc');
