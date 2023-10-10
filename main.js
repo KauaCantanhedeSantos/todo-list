@@ -32,7 +32,7 @@ function newTask(){
           <p>${nome}</p>
         </div>
 
-        <div class="criado-desc">
+        <div class="criado-desc" onclick="feito(${idX})">
           <p>${descricao}</p>
         </div>
         <div class="criado-data">
