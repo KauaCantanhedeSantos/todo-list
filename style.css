@@ -223,7 +223,6 @@ button.create{
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap');
 
   * {
-    /* margem automatica */
     margin: auto;
     padding: 0;
     box-sizing: border-box;
@@ -231,7 +230,7 @@ button.create{
   }
 
   .header {
-    width: 700px;
+    width: 400px;
     margin: 25px auto;
     font-family: 'Rajdhani';
     text-align: start;
@@ -248,7 +247,7 @@ button.create{
   }
   section.inputs {
     align-items: start;
-    width: 700px;
+    width: 400px;
     margin: auto;
     justify-content: start;
     display: flex;
@@ -270,20 +269,20 @@ button.create{
   input#task {
     width: 390px;
     margin-bottom: 10px;
-    margin-left: 10px;
+
 
   }
 
   input#desc {
     width: 390px;
     margin-bottom: 10px;
-    margin-left: 10px;
+
   }
 
   input#data {
     width: 390px;
     margin-bottom: 10px;
-    margin-left: 10px;
+
   }
   button.create{
   font-size: 25px;
@@ -296,11 +295,14 @@ button.create{
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-left: 110px;
+  margin-bottom: 10px;
+
   }
 /* ITEM DA LISTA QUANDO CRIADO */
 .lista {
   width: 420px;
+  margin: auto;
+  
 }
 
 .lista .criado {
@@ -308,7 +310,7 @@ button.create{
   align-items: center;
   height: 3rem;
   width: 400px;
-  margin: 0.8rem auto;
+  margin: 10px auto;
   border-radius: 8px;
   border: 1px solid #d8d8d8;
   cursor: pointer;
