@@ -44,7 +44,6 @@ button.create{
   border: none;
   border-radius: 8px;
   background-color: rgb(107, 255, 107);
-
 }
 /* ITEM DA LISTA QUANDO CRIADO */
 .lista{
@@ -218,4 +217,194 @@ button.create{
   justify-content: center;
   background-color: rgb(255, 146, 146);
   border-radius: 0 8px 8px 0;
+}
+
+@media (max-width: 768px){
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .header {
+    width: 700px;
+    margin: 25px auto;
+    font-family: 'Rajdhani';
+    text-align: start;
+  }
+
+  .header .title h1{
+    width: 380px;
+    text-align: center;
+  }
+
+
+  section.inputs {
+    align-items: start;
+    width: 700px;
+    margin: auto;
+    justify-content: start;
+    display: flex;
+    text-align: start;
+    flex-flow: column;
+  }
+
+  input {
+    height: 50px;
+    font-size: 1rem;
+    font-family: 'Rajdhani', 'Helvetica';
+    font-weight: 500;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin: 0 3px;
+  }
+
+  input#task {
+    width: 380px;
+    margin-bottom: 10px
+  }
+
+  input#desc {
+    width: 380px;
+    margin-bottom: 10px;
+  }
+
+  input#data {
+    width: 380px;
+    margin-bottom: 10px;
+  }
+  button.create{
+  font-size: 25px;
+  height: 50px;
+  width: 170px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(107, 255, 107);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 110px;
+  }
+/* ITEM DA LISTA QUANDO CRIADO */
+.lista {
+  margin: 10px auto;
+  width: 1700px;
+}
+
+.lista .criado {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  width: 90%;
+  margin: 0.8rem auto;
+  border-radius: 8px;
+  border: 1px solid #d8d8d8;
+  cursor: pointer;
+  font-family: 'Rajdhani';
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.lista .criado .criado-icon {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 5%;
+  text-align: center;
+  justify-content: center;
+}
+
+.lista .criado .criado-nome {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 15%;
+  text-align: center;
+  justify-content: center;
+}
+
+.lista .criado .criado-desc {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 45%;
+  text-align: justify;
+  justify-content: center;
+}
+
+.lista .criado .criado-data {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 20%;
+  text-align: center;
+  justify-content: center;
+}
+
+.lista .criado .criado-del {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 5%;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 146, 146);
+  border-radius: 0 8px 8px 0;
+}
+
+.lista .criado .criado-icon {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 5%;
+  text-align: center;
+  justify-content: center;
+}
+
+.lista .criado .criado-icon .fa-square {
+  font-size: 25px;
+}
+
+.lista .criado .criado-nome {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 20%;
+  text-align: center;
+  justify-content: center;
+}
+
+.lista .criado .criado-desc {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 40%;
+  text-align: center;
+  justify-content: center;
+}
+
+.lista .criado .criado-data {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 20%;
+  text-align: center;
+  justify-content: center;
+}
+
+.lista .criado .criado-del {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex: 5%;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 146, 146);
+  border-radius: 0 8px 8px 0;
+}
 }
