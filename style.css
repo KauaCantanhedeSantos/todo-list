@@ -231,19 +231,22 @@ button.create{
 
   .header {
     width: 400px;
-    margin: 25px auto;
+    margin: 15px auto ;
     font-family: 'Rajdhani';
     text-align: start;
+    left: -10px;
+    border: 1px solid red;
   }
 
   .header .title h1{
     width: 390px;
-    text-align: center;
+    text-align: start;
+    margin: auto;
   }
   .header .rodape-header{
-    text-align: center;
     width: 420px;
     font-size: 20px;
+    margin: auto;
   }
   section.inputs {
     align-items: start;
