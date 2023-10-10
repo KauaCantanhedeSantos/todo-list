@@ -235,13 +235,11 @@ button.create{
     font-family: 'Rajdhani';
     text-align: start;
     left: -10px;
-    border: 1px solid red;
   }
 
   .header .title h1{
-    width: 390px;
-    text-align: start;
-    margin: auto;
+    width: 400px;
+    text-align: center;
   }
   .header .rodape-header{
     width: 420px;
@@ -257,7 +255,6 @@ button.create{
     text-align: start;
     flex-flow: column;
   }
-
   input {
     height: 50px;
     font-size: 1.2rem;
@@ -268,24 +265,17 @@ button.create{
     border: 1px solid #ccc;
     margin: 0 3px;
   }
-
   input#task {
     width: 390px;
     margin-bottom: 10px;
-
-
   }
-
   input#desc {
     width: 390px;
     margin-bottom: 10px;
-
   }
-
   input#data {
     width: 390px;
     margin-bottom: 10px;
-
   }
   button.create{
   font-size: 25px;
